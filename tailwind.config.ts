@@ -51,6 +51,9 @@ const config = {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+          orange: "hsl(var(--card-orange))",
+          purple: "hsl(var(--card-purple))",
+          green: "hsl(var(--card-green))",
         },
         backgroundacc: "hsl(var(--background-accent))",
         foregroundacc: "hsl(var(--foreground-accent))",

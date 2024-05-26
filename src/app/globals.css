@@ -29,6 +29,9 @@ body,
 
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
+    --card-orange: 20, 68%, 50%;
+    --card-purple: 270, 61%, 36%;
+    --card-green: 77, 53%, 36%;
 
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 3.9%;
@@ -65,6 +68,9 @@ body,
 
     --card: 0 0% 3.9%;
     --card-foreground: 0 0% 98%;
+    --card-orange: 20, 68%, 50%;
+    --card-purple: 270, 61%, 36%;
+    --card-green: 77, 53%, 36%;
 
     --popover: 0 0% 3.9%;
     --popover-foreground: 0 0% 98%;
