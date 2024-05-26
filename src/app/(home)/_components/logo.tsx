@@ -16,7 +16,7 @@ export const Logo = (
     return (
         <div className="p-4">
             <h1 className={cn(`font-bold text-3xl ${theme === "light" ? "text-white" : ""}`, font.className)}>
-                Glo<span className={`${theme === "light" ? "text-white" : "text-accent"}`}>z</span>io
+                Glo<span className={`${theme === "light" ? "text-white" : "text-foregroundacc"}`}>z</span>io
             </h1>
         </div>
     )

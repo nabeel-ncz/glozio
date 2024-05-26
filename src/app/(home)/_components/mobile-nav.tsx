@@ -19,13 +19,13 @@ export const MobileNav = () => {
         <section className="w-full z-50 max-w-[264px]">
             <Sheet>
                 <SheetTrigger asChild>
-                    <button className="bg-secondary hover:bg-gray-200 cursor-pointer p-2 rounded">
+                    <button className="bg-background hover:bg-backgroundacc cursor-pointer p-2 rounded">
                         <IoMdMenu size={"24"} />
                     </button>
                 </SheetTrigger>
-                <SheetContent side="left" className="border-none bg-primary">
+                <SheetContent side="left" className="border-none bg-backgroundacc">
                     <Link href="/" className="flex items-center gap-1">
-                        <Logo theme="light" />
+                        <Logo />
                     </Link>
                     <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
                         <SheetClose asChild>
@@ -38,9 +38,9 @@ export const MobileNav = () => {
                                                 href={item.route}
                                                 key={item.label}
                                                 className={cn(
-                                                    'flex gap-4 items-center p-4 rounded-lg w-full max-w-60',
+                                                    'flex gap-4 items-center p-4 rounded-lg w-full max-w-60 hover:bg-background',
                                                     {
-                                                        'bg-accent': isActive,
+                                                        'bg-background': isActive,
                                                     }
                                                 )}
                                             >

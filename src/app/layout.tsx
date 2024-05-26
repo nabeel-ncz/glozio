@@ -22,7 +22,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <ThemeProvider
             attribute="class"
-            forcedTheme="light"
+            forcedTheme="dark"
             storageKey="glozio-theme"
           >
             <main>
