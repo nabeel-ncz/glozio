@@ -1,5 +1,5 @@
 export default function page() {
   return (
-    <div>page is protected</div>
+    <div>meeting page</div>
   )
 }

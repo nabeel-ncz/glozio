@@ -12,7 +12,7 @@ export const Logo = () => {
             <h1
                 className={cn("font-bold text-3xl", font.className)}
             >
-                Glozio
+                Glo<span className="text-blue-600">z</span>io
             </h1>
         </div>
     )
